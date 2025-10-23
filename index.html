@@ -27,7 +27,8 @@
                     </svg>
                     <h1 class="text-2xl font-extrabold text-white tracking-wide">Refurbish Laptop Patna</h1>
                 </div>
-                <ul class="flex space-x-8">
+                <!-- Desktop Menu -->
+                <ul class="hidden md:flex space-x-8">
                     <li><a href="index.html" class="text-white hover:text-yellow-300 transition duration-300 font-medium relative group">Home
                         <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-yellow-300 transition-all duration-300 group-hover:w-full"></span>
                     </a></li>
@@ -37,6 +38,20 @@
                     <li><a href="contact.html" class="text-white hover:text-yellow-300 transition duration-300 font-medium relative group">Contact
                         <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-yellow-300 transition-all duration-300 group-hover:w-full"></span>
                     </a></li>
+                </ul>
+                <!-- Mobile Menu Button -->
+                <button class="md:hidden text-white focus:outline-none" id="mobile-menu-button">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+            <!-- Mobile Menu -->
+            <div class="md:hidden hidden" id="mobile-menu">
+                <ul class="flex flex-col space-y-4 py-4">
+                    <li><a href="index.html" class="text-white hover:text-yellow-300 transition duration-300 font-medium block">Home</a></li>
+                    <li><a href="shop.html" class="text-white hover:text-yellow-300 transition duration-300 font-medium block">Shop</a></li>
+                    <li><a href="contact.html" class="text-white hover:text-yellow-300 transition duration-300 font-medium block">Contact</a></li>
                 </ul>
             </div>
         </div>

@@ -1,10 +1,11 @@
-# TODO List for Adding 20 Products to Shop and WhatsApp Enquiries
+# TODO: Make Project Responsive for Mobile, Desktop, and Tablet
 
-## Tasks
-- [ ] Add onclick to Dell XPS "Buy Now" button in index.html.
-- [ ] Replace 6 placeholder products in shop.html with 20 real products, each with real laptop images from Unsplash, "Buy Now" button with WhatsApp link.
-- [ ] Ensure all enquiries/buys are only via WhatsApp links.
-- [ ] Update TODO.md to reflect completion.
+## Overview
+The project uses Tailwind CSS with some responsive elements, but navigation menus are not mobile-friendly. Add hamburger menu for mobile navigation across all pages (index.html, shop.html, contact.html) and ensure full responsiveness.
 
-## Progress Tracking
-- Starting with edits.
+## Steps
+- [x] Update navigation in index.html to include hamburger menu for mobile
+- [x] Update navigation in shop.html to include hamburger menu for mobile
+- [x] Update navigation in contact.html to include hamburger menu for mobile
+- [x] Update script.js to add toggle functionality for hamburger menu
+- [x] Test responsiveness across all pages on different screen sizes
